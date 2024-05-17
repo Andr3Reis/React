@@ -1,6 +1,7 @@
 import "./App.css";
-import { Card } from "./components/Card";
 import styled from "styled-components";
+import { Card } from "./components/Card";
+import { Contador } from "./components/Contador";
 
 const Container = styled.div`
   display: flex;
@@ -12,6 +13,7 @@ function App() {
     <Container>
       <Card title="Teste" content="Teste2" />
       <Card title="Teste" content="Teste2" />
+      <Contador />
     </Container>
   );
 }
